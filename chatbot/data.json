@@ -1,0 +1,52 @@
+{
+    "recipient_id": "Me",
+    "text": "Bạn cần tư vấn gì",
+    "buttons": [
+        {
+            "type": "postback",
+            "title": "Khoa học máy tính",
+            "payload": "tư vấn khmt"
+        },
+        {
+            "type": "postback",
+            "title": "Kĩ thuật phần mềm",
+            "payload": "tư vấn ktpm"
+        },
+        {
+            "type": "postback",
+            "title": "Công nghệ thông tin",
+            "payload": "tư vấn cntt"
+        },
+        {
+            "type": "postback",
+            "title": "Hệ thống thông tin",
+            "payload": "tư vấn httt"
+        },
+        {
+            "type": "postback",
+            "title": "Khoa học dữ liệu",
+            "payload": "tư vấn khdl"
+        }
+    ]
+},
+{
+    "recipient": {
+        "id": "<PSID>"
+    },
+    "message": {
+        "attachment": {
+            "type": "template",
+            "payload": {
+                "template_type": "button",
+                "text": "What do you want to do next?",
+                "buttons": [
+                    {
+                        "type": "web_url",
+                        "url": "https://www.messenger.com",
+                        "title": "Visit Messenger"
+                    }
+                ]
+            }
+        }
+    }
+}
